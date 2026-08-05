@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vvekslab | RNAi & Functional Genomics Lab</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/jpeg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body id="top">
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/vvekslab_text.png" alt="Vvekslab Logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li><a href="index.html" class="navbar-link active">Home</a></li>
+          <li class="dropdown">
+            <a href="team.html" class="navbar-link dropdown-toggle" style="cursor: pointer;">Team</a>
+            <div class="dropdown-content">
+              <a href="team.html">Current Lab Members</a>
+              <a href="alumni.html">Lab Alumni</a>
+            </div>
+          </li>
+          <li><a href="research.html" class="navbar-link ">Research</a></li>
+          <li><a href="publications.html" class="navbar-link ">Publications</a></li>
+          <li><a href="resources.html" class="navbar-link ">Resources</a></li>
+          <li><a href="gallery.html" class="navbar-link ">Gallery</a></li>
+          <li><a href="news.html" class="navbar-link ">News</a></li>
+          <li><a href="joinus.html" class="navbar-link ">Join Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Carousel Hero Section -->
+  <section class="hero-carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="assets/images/homepage/carousel_1.jpg" alt="Lab Research">
+        <div class="carousel-caption">
+          <h2>RNAi & Functional Genomics Lab</h2>
+          <p>Uncovering the dark matter of the human genome and decrypting its role in cancer and development.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/homepage/carousel_2.jpg" alt="Computational Biology">
+        <div class="carousel-caption">
+          <h2>Cutting-Edge Research</h2>
+          <p>Performing interdisciplinary studies by coupling molecular techniques with high-throughput omics.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/homepage/carousel_3.jpg" alt="Lab Members Work">
+        <div class="carousel-caption">
+          <h2>State-of-the-Art Facility</h2>
+          <p>Nurturing young minds at the Department of Life Science, National Institute of Technology, Rourkela.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/homepage/carousel_4.jpg" alt="Lab Environment">
+        <div class="carousel-caption">
+          <h2>Join Our Journey</h2>
+          <p>Training the next generation of scientists to solve complex molecular biology problems.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn prev" aria-label="Previous image">&#10094;</button>
+    <button class="carousel-btn next" aria-label="Next image">&#10095;</button>
+  </section>
+
+  <!-- Ticker Banner with Static News Badge -->
+  <a href="news.html" class="announcement-ticker" title="View all news">
+    <div class="ticker-badge">LATEST NEWS</div>
+    <div class="ticker-scroll-area">
+      <div class="ticker-wrap">
+        <div class="ticker-item">Prof. Bibekanand Mallick was elected as a Fellow (FRSB) of the Royal Society of
+          Biology, UK.</div>
+        <div class="ticker-item">Serving as Editor of Communications Biology (Nature Portfolio Journal).</div>
+        <div class="ticker-item">Recent research on oral cancer published in the journal "BBA Gene Regulatory
+          Mechanism".
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Latest Research Section -->
+  <section class="section section-bg" style="padding-top: 1rem; padding-bottom: 1rem;">
+    <div class="container">
+      <h2 class="section-title" style="font-size: 1.75rem;">Latest Research Focus</h2>
+      <p class="text-muted" style="font-size: 1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Our laboratory strives to perform cutting-edge interdisciplinary research in an exciting and highly
+        collaborative environment. We aim to uncover and characterize the 98.5% of the human genome that does not code
+        for proteins, which we call <strong>non-coding RNAs (ncRNAs)</strong> (microRNA, piRNA, ceRNA, lncRNA).
+        These molecules act as promising rheostats of gene regulation. We decrypt their roles in controlling development
+        and diseases, especially in human cancers, by applying molecular biology techniques coupled with high-throughput
+        omics approaches in cell lines and in vivo models.
+      </p>
+      <div style="display: flex; justify-content: center;">
+        <a href="research.html" id="learn-more-research-btn" class="btn btn-primary"
+          style="padding: 10px 24px; font-size: 0.95rem;">Learn More about
+          Research</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision Section -->
+  <section class="section">
+    <div class="container">
+      <div class="mvg-grid">
+
+        <!-- Mission Card -->
+        <div class="mvg-card">
+          <div class="mvg-card-img">
+            <img src="assets/images/homepage/mission.jpg" alt="Mission Illustration">
+          </div>
+          <div class="mvg-card-body">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+              <div
+                style="background-color: rgba(37, 99, 235, 0.1); color: var(--accent-color); width: 42px; height: 42px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-shield-check" viewBox="0 0 16 16">
+                  <path
+                    d="M8 1.5c-1.117 0-2.072.75-2.316 1.808a3.992 3.992 0 0 0-1.808 2.316A3.991 3.991 0 0 0 1.5 8c0 1.117.75 2.072 1.808 2.316a3.992 3.992 0 0 0 2.316 1.808c.244 1.058 1.2 1.808 2.316 1.808 1.117 0 2.072-.75 2.316-1.808a3.992 3.992 0 0 0 1.808-2.316A3.99 3.99 0 0 0 14.5 8c0-1.117-.75-2.072-1.808-2.316a3.992 3.992 0 0 0-2.316-1.808A3.993 3.993 0 0 0 8 1.5z" />
+                </svg>
+              </div>
+              <h3 style="font-size: 1.5rem; margin: 0;">Mission</h3>
+            </div>
+            <p class="text-muted" style="font-size: 1rem; line-height: 1.7; margin-bottom: 0.75rem;">Uncovering the dark
+              matter of the genome, and its role in development and diseases, especially in cancer by integrating
+              multi-disciplinary omics and molecular biology approaches.</p>
+            <ul class="text-muted"
+              style="padding-left: 1.25rem; list-style: disc; font-size: 1rem; line-height: 1.7; margin-bottom: 0;">
+              <li>Noncoding RNAs</li>
+              <li>Gene silencing and regulation</li>
+              <li>Developing new technologies</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Vision Card -->
+        <div class="mvg-card">
+          <div class="mvg-card-img">
+            <img src="assets/images/homepage/vision.jpg" alt="Vision Illustration">
+          </div>
+          <div class="mvg-card-body">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+              <div
+                style="background-color: rgba(37, 99, 235, 0.1); color: var(--accent-color); width: 42px; height: 42px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 4 8 4s3.88.668 5.167 1.957A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12 8 12s-3.879-.668-5.168-1.957A13.133 13.133 0 0 1 1.172 8z" />
+                  <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                </svg>
+              </div>
+              <h3 style="font-size: 1.5rem; margin: 0;">Vision</h3>
+            </div>
+            <ul class="text-muted"
+              style="padding-left: 1.25rem; list-style: disc; font-size: 1rem; line-height: 1.7; margin-bottom: 0;">
+              <li>Be undaunted and think big.</li>
+              <li>Because we believe that size of your success is determined by size of your thinking.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Goals Card -->
+        <div class="mvg-card">
+          <div class="mvg-card-img">
+            <img src="assets/images/homepage/goal.jpg" alt="Goals Illustration">
+          </div>
+          <div class="mvg-card-body">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+              <div
+                style="background-color: rgba(37, 99, 235, 0.1); color: var(--accent-color); width: 42px; height: 42px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-compass"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 16.016a7.969 7.969 0 0 0 6-6.016 7.968 7.968 0 0 0-6-6.016 7.968 7.968 0 0 0-6 6.016c0 4.025 2.935 7.359 6.75 7.951v-5.625h-2.03v-1.562h2.03V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25v5.625z" />
+                </svg>
+              </div>
+              <h3 style="font-size: 1.5rem; margin: 0;">Goal</h3>
+            </div>
+            <ul class="text-muted"
+              style="padding-left: 1.25rem; list-style: disc; font-size: 1rem; line-height: 1.7; margin-bottom: 0;">
+              <li>Train the young minds and impart a sense of inquisitiveness in them</li>
+              <li>Create/train next generation of scientists</li>
+              <li>Collaborate to solve arduous problems</li>
+              <li>Develop societal technological innovations</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Principal Investigator Profile Card -->
+  <section class="section section-bg">
+    <div class="container">
+      <h2 class="section-title" style="font-size: 1.75rem;">Principal Investigator</h2>
+      <div class="pi-card">
+        <div>
+          <img src="./assets/images/homepage/pi_wide.jpg" alt="Dr. Bibekanand Mallick" class="pi-img">
+        </div>
+        <div class="pi-info">
+          <h3>Dr. Bibekanand Mallick, MNASc., FNABS, FRSB</h3>
+          <p class="subtitle">Professor, RNAi & Functional Genomics Lab</p>
+          <div class="pi-info-columns">
+            <div class="pi-details" style="margin: 0;">
+              <p>Department of Life Science,</p>
+              <p>National Institute of Technology Rourkela,</p>
+              <p>Rourkela-769008, Odisha, INDIA.</p>
+            </div>
+            <div class="contact-links-list">
+              <div class="contact-link-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zm.192 8.159 6.57-4.027L8 9.586l1.239-.757.192.119 6.57 4.027A2 2 0 0 1 14 14H2a2 2 0 0 1-1.808-1.144zM16 11.801V4.697l-5.803 3.546L16 11.801z" />
+                </svg>
+                <a href="mailto:vivek.iitian@gmail.com">vivek.iitian@gmail.com</a>
+              </div>
+              <div class="contact-link-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+                <a href="tel:+916612462685">+91-(0661)246-2685</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="assets/images/footer_logo.jpg" alt="Vvekslab Logo" class="footer-logo">
+      </div>
+      <div class="footer-col">
+        <h3>Other Links</h3>
+        <ul class="footer-links-list">
+          <li><a href="index.html" class="footer-link-item">&rarr; Home</a></li>
+          <li><a href="team.html" class="footer-link-item">&rarr; Team</a></li>
+          <li><a href="research.html" class="footer-link-item">&rarr; Research</a></li>
+          <li><a href="publications.html" class="footer-link-item">&rarr; Publications</a></li>
+          <li><a href="gallery.html" class="footer-link-item">&rarr; Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <ul class="footer-links-list">
+          <li class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-geo-alt"
+              viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>
+            <span>MN-342, RNAi & Functional Genomics Lab,<br>Department of Life Science,<br>National Institute of
+              Technology
+              Rourkela,<br>Rourkela-769008, Odisha, INDIA.</span>
+          </li>
+          <li class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            <span>+91-(0661)246-2685</span>
+          </li>
+          <li class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-envelope"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+            </svg>
+            <a href="mailto:vivek.iitian@gmail.com"
+              style="text-decoration: none; color: inherit; font-weight: bold;">vivek.iitian@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">&copy; <span id="year"></span> Vvekslab. All Rights Reserved.</p>
+      </div>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <!-- Scroll Top Button -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-up"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+    </svg>
+  </a>
+
+  <!-- JS Scripts -->
+  <script src="./assets/js/script.js" defer></script>
+</body>
+
+</html>

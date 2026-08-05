@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources | Vvekslab</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body id="top">
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/vvekslab_text.png" alt="Vvekslab Logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li><a href="index.html" class="navbar-link ">Home</a></li>
+          <li class="dropdown">
+            <a href="team.html" class="navbar-link dropdown-toggle" style="cursor: pointer;">Team</a>
+            <div class="dropdown-content">
+              <a href="team.html">Current Lab Members</a>
+              <a href="alumni.html">Lab Alumni</a>
+            </div>
+          </li>
+          <li><a href="research.html" class="navbar-link ">Research</a></li>
+          <li><a href="publications.html" class="navbar-link ">Publications</a></li>
+          <li><a href="resources.html" class="navbar-link active">Resources</a></li>
+          <li><a href="gallery.html" class="navbar-link ">Gallery</a></li>
+          <li><a href="news.html" class="navbar-link ">News</a></li>
+          <li><a href="joinus.html" class="navbar-link ">Join Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Header & Banner -->
+  <section class="page-banner"
+    style="position: relative; width: 100%; height: 233px; overflow: hidden; background-color: var(--primary-color); display: flex; align-items: center; justify-content: center;">
+    <!-- Recommended image size: 1920x233 pixels -->
+    <img src="assets/images/resources/resources_banner.jpg" alt="Resources Banner"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; filter: brightness(0.7); z-index: 1;"
+      onerror="this.style.display='none'">
+    <div class="container" style="position: relative; z-index: 2; text-align: center;">
+      <h1 class="h1"
+        style="color: var(--bg-white); font-size: 2.5rem; text-shadow: 0 4px 8px rgba(0,0,0,0.7); margin: 0; letter-spacing: 1px;">
+        Resources</h1>
+    </div>
+  </section>
+
+  <!-- Resources Content Section -->
+  <section class="section">
+    <div class="container">
+
+      <div class="grid" style="gap: 1.5rem; grid-template-columns: 1fr;">
+
+        <!-- Resource 1: TarpiD -->
+        <div class="resource-card">
+          <div>
+            <div class="resource-card-header">
+              <div class="resource-card-title">TarpiD</div>
+              <div class="resource-card-subtitle">A comprehensive database of piwi-interacting RNAs (piRNAs) and their
+                targets</div>
+            </div>
+            <p class="text-muted" style="margin-bottom: 1.25rem; line-height: 1.7; font-size: 0.95rem;">
+              TarPiD (Targets of piRNA Database) offers comprehensive information on piRNA and its targets, including
+              their expression, methodologies (high-throughput or low-throughput) for target
+              identification/validation, cells/tissue types, diseases, target regulation types, target binding
+              regions, and important biological functions driven by piRNAs through target interactions.
+            </p>
+          </div>
+          <div>
+            <a href="https://tarpid.nitrkl.ac.in/" target="_blank" class="btn btn-outline"
+              style="padding: 0.5rem 1rem; font-size: 0.9rem;">Visit TarpiD Website</a>
+          </div>
+        </div>
+
+        <!-- Resource 2: Cancer 'ome' NGS -->
+        <div class="resource-card">
+          <div>
+            <div class="resource-card-header">
+              <div class="resource-card-title">Cancer 'ome' NGS</div>
+              <div class="resource-card-subtitle">Next-generation sequencing data submitted to GEO databases</div>
+            </div>
+            <p class="text-muted" style="margin-bottom: 1rem; line-height: 1.7; font-size: 0.95rem;">
+              Our RNAi laboratory has performed next-generation sequencing of small RNA and transcriptomes in tissues
+              and cell lines of multiple cancer types to decode the cancerome. This is aimed at developing novel
+              diagnostic and therapeutic strategies.
+            </p>
+          </div>
+          <p class="text-muted" style="margin-bottom: 0.5rem; font-size: 0.9rem;">
+            <strong>GEO Accession Nos:</strong>
+            <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE197508" target="_blank">GSE197508</a>,
+            <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196674" target="_blank">GSE196674</a>,
+            <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE196688" target="_blank">GSE196688</a>,
+            <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83945" target="_blank">GSE83945</a>,
+            <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83794" target="_blank">GSE83794</a>,
+            <a href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE85075" target="_blank">GSE85075</a>.
+          </p>
+        </div>
+
+        <!-- Resource 3: SoCeR -->
+        <div class="resource-card">
+          <div>
+            <div class="resource-card-header">
+              <div class="resource-card-title">SoCeR</div>
+              <div class="resource-card-subtitle">Competing endogenous RNA (ceRNA) propensity predictor</div>
+            </div>
+            <p class="text-muted" style="margin-bottom: 1rem; line-height: 1.7; font-size: 0.95rem;">
+              SoCeR predicts, gauges, and compares the propensity of the ceRNAs of a gene of interest based on a
+              miRNA-mediated ‘tug-of-war’ model. It precisely envisages which among a ceRNA pair exerts a stronger
+              pull on the shared miRNA pool. This tool predicts ceRNAs in 32 cancer types with a true positive rate of
+              79%.
+            </p>
+            <p class="text-muted" style="margin-bottom: 1.25rem; font-size: 0.88rem;">
+              <strong>Published in:</strong> <em>miRNA-mediated 'tug-of-war' model reveals ceRNA propensity of genes
+                in cancers.</em> Molecular Oncology, 12(6):855-868, 2018.
+            </p>
+          </div>
+          <div>
+            <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Download Standalone
+              SoCeR</a>
+          </div>
+        </div>
+
+        <!-- Resource 4: STarMir -->
+        <div class="resource-card">
+          <div>
+            <div class="resource-card-header">
+              <div class="resource-card-title">STarMir</div>
+              <div class="resource-card-subtitle">MicroRNA binding site prediction algorithm</div>
+            </div>
+            <p class="text-muted" style="margin-bottom: 1rem; line-height: 1.7; font-size: 0.95rem;">
+              StarMir predicts both seed and seedless target sites in all three regions of target mRNAs (5’UTR, CDS,
+              3’UTR) using prediction models based on V-CLIP (human), HITS-CLIP (mouse), and ALG1-CLIP (worm). This
+              was developed while working at Wadsworth Center, NY.
+            </p>
+            <p class="text-muted" style="margin-bottom: 1.25rem; font-size: 0.88rem;">
+              <strong>Publications:</strong> Nucleic Acids Res. 41(14): e138, 2013 | RNA Biology 13 (6), 554-560,
+              2016.
+            </p>
+          </div>
+          <div>
+            <a href="https://sfold.wadsworth.org/cgi-bin/starmirWeb.pl" target="_blank" class="btn btn-outline"
+              style="padding: 0.5rem 1rem; font-size: 0.9rem;">Go to STarMir Service</a>
+          </div>
+        </div>
+
+        <!-- Resource 5: RiNAcyc -->
+        <div class="resource-card">
+          <div>
+            <div class="resource-card-header">
+              <div class="resource-card-title">RiNAcyc</div>
+              <div class="resource-card-subtitle">A tool to identify acyclic paths in biological networks</div>
+            </div>
+            <p class="text-muted" style="margin-bottom: 1rem; line-height: 1.7; font-size: 0.95rem;">
+              RiNAcyc (RNA interacting Nodes in Acyclic Path) identifies acyclic paths in complex biological networks
+              to map key regulatory feedback circuits.
+            </p>
+            <p class="text-muted" style="margin-bottom: 1.25rem; font-size: 0.88rem;">
+              <strong>Published in:</strong> <em>Unraveling novel TF-miRNA regulatory crosstalk in metastasis of Soft
+                Tissue Sarcoma.</em> Scientific Reports, 5:9742, 2015.
+            </p>
+          </div>
+          <div>
+            <a href="http://vvekslab.in/rinacyc.zip" class="btn btn-outline"
+              style="padding: 0.5rem 1rem; font-size: 0.9rem;">Download RiNAcyc Package</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <img src="assets/images/footer_logo.jpg" alt="Vvekslab Logo" class="footer-logo">
+      </div>
+      <div class="footer-col">
+        <h3>Other Links</h3>
+        <ul class="footer-links-list">
+          <li><a href="index.html" class="footer-link-item">&rarr; Home</a></li>
+          <li><a href="team.html" class="footer-link-item">&rarr; Team</a></li>
+          <li><a href="research.html" class="footer-link-item">&rarr; Research</a></li>
+          <li><a href="publications.html" class="footer-link-item">&rarr; Publications</a></li>
+          <li><a href="gallery.html" class="footer-link-item">&rarr; Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <ul class="footer-links-list">
+          <li class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-geo-alt"
+              viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>
+            <span>MN-342, RNAi & Functional Genomics Lab,<br>Department of Life Science,<br>National Institute of
+              Technology Rourkela,<br>Rourkela-769008, Odisha, INDIA.</span>
+          </li>
+          <li class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            <span>+91-(0661)246-2685</span>
+          </li>
+          <li class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-envelope"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+            </svg>
+            <a href="mailto:vivek.iitian@gmail.com"
+              style="text-decoration: none; color: inherit; font-weight: bold;">vivek.iitian@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">&copy; <span id="year"></span> Vvekslab. All Rights Reserved.</p>
+      </div>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+
+  <!-- Scroll Top Button -->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-up"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+    </svg>
+  </a>
+
+  <!-- JS Scripts -->
+  <script src="./assets/js/script.js" defer></script>
+</body>
+
+</html>
